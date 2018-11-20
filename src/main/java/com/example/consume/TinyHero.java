@@ -3,12 +3,12 @@ package com.example.consume;
 public class TinyHero {
 	
 	private String name;
-	private String innovation;
+	private String invented;
 	private int year;
-	public TinyHero(String name, String innovation, int year) {
+	public TinyHero(String name, String invented, int year) {
 		super();
 		this.name = name;
-		this.innovation = innovation;
+		this.invented = invented;
 		this.year = year;
 	}
 	public TinyHero() {
@@ -21,11 +21,11 @@ public class TinyHero {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getInnovation() {
-		return innovation;
+	public String getInvented() {
+		return invented;
 	}
-	public void setInnovation(String innovation) {
-		this.innovation = innovation;
+	public void setInvented(String invented) {
+		this.invented = invented;
 	}
 	public int getYear() {
 		return year;
@@ -35,8 +35,11 @@ public class TinyHero {
 	}
 	@Override
 	public String toString() {
-		return "TinyHero [name=" + name + ", innovation=" + innovation + ", year=" + year + "]";
+		return "TinyHero [name=" + name + ", invented=" + invented + ", year=" + year + "]";
 	}
+	
+	
+	
 	
 	
 	

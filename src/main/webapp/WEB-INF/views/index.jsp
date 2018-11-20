@@ -15,7 +15,7 @@
 <table style="width:15%">
 <tr>
     <th>name</th>
-   <th>innovation</th>
+   <th>invented</th>
    <th>year</th>
   </tr>
   
@@ -24,7 +24,7 @@
 <c:forEach var="tiny" items="${tinylist}">
 	<tr>	
 	<td>${tiny.name}</td>
-   <td>${tiny.innovation}</td>
+   <td>${tiny.invented}</td>
    <td>${tiny.year}</td>
 	</tr>
 	</c:forEach>
